@@ -1,1 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    border: 1px solid gray;
+}
+/*General Style*/
+html{
+    font-size: 62.5%;
+    background-color: whitesmoke;
+
+}
+body{
+    font-size: 1.8rem;
+    color: #4f4f4f;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+
+}
+h1{
+    font-size: 5rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+section{
+    padding: 4% 0;
+}
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
 /* Add CSS styling here */
+#title{
+    font-family: 'Lobster', cursive;
+}
+#top{
+display: flex;
+padding: 2% 0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#top p {
+    margin: 1.9% 0 0 0;
+    width: 90%;
+    
+}
+a:active{
+    background-color: red;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    font-family: 'Pacifico', cursive;
+    padding: 6% 26%;
+    margin: 16% 0;
+    background-color: white;
+}
+.img{
+    background-image: url('https://images.unsplash.com/photo-1502888395188-799b90b43871?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjBjYW1lcmF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 77.2vh;
+    background-position: center;
+}
+.image{
+    width: 75%;
+    margin-left: 1%;
+    height: 90vh;
+}
+#gallery{
+    display: flex;
+
+}
+p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.5rem;
+}
+#gallery p{
+    margin: 11%;
+}
+#paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
