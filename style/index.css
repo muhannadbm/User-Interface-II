@@ -577,10 +577,14 @@ text-align: center;
         .socialimg {
             width: 8%;
         }
+        
         .image {
             width: 44%;
             margin: 0;
             height: 90vh;
+        }
+        .img{
+            margin: 0 2%;
         }
     
     }
