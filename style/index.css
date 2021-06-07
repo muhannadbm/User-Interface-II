@@ -125,6 +125,7 @@ nav a {
     margin-left: 1%;
     height: 90vh;
 }
+
 #gallery{
     display: flex;
 
@@ -156,4 +157,42 @@ footer{
 .social{
     width: 100%;
 text-align: center;
+}
+
+
+@media(max-width: 500px){
+    
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 2%;
+
+}
+nav a {
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.img{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-position: right;
+}
+.image{
+    margin-left: 0;
+    width: 48%;
+}
+}
+
+
+@media(max-width: 800px){
+
 }
